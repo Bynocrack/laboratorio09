@@ -1,0 +1,12 @@
+.tarjeta {
+  box-shadow: 3px;
+  padding: 50px;
+  background-color: #040404;
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-around;
+}
