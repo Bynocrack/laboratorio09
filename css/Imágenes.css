@@ -2,36 +2,26 @@
   box-shadow: 3px;
   padding: 9px;
   background-color: #fff;
-  flex: 0 0 150px;
   border-radius: 5px;
   width: 150px;
   height: 200px;
+  text-align: center;
 }
-
 .tarjeta img {
   width: 100%;
   height: auto;
-}
-
-.tarjeta h3 {
-  font-size: 14px;
+  margin-bottom: 0;
 }
 
 .tarjeta p {
-  font-size: 10pt;
+  margin-top: 0;
+  font-size: 15pt;
 }
-
-#principal {
-  display: flex;
-  flex-flow: row wrap;
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   justify-content: space-around;
   gap: 16px;
   width: 100%;
   flex: 3;
-}
-
-aside {
-  flex: 1;
-  background-color: #fff;
-  border-radius: 15px;
 }
